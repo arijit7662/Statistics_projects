@@ -3,8 +3,8 @@ library(tidyverse)
 library(car)  # For ANOVA tests
 library(bestNormalize)  # For handling non-normal data transformations
 
-# Load the data (assuming the file is saved locally as "Two_Way_Data.csv")
-data=Two_Way_m_obs
+# Load the data (assuming the file is saved locally as "dataset.xlsx")
+data=dataset
 
 # Display the structure of the dataset
 str(data)
